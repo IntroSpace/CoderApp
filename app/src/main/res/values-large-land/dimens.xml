@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="textSize">21sp</dimen>
+    <dimen name="itemTextSize">19sp</dimen>
+    <dimen name="buttonTextSize">14sp</dimen>
+</resources>

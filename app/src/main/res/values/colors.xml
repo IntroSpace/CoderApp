@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C59CFF</color>
+    <color name="colorPrimaryDark">#996BFF</color>
+    <color name="colorAccent">#3E9996</color>
+    <color name="actionBarColor">#394C56</color>
+    <color name="actionBarColorDark">#29373F</color>
+    <color name="backgroundColor">#546E7A</color>
+    <color name="buttonBackgroundColor">#FF7043</color>
+    <color name="buttonBorderColor">#E6DC572F</color>
+    <color name="actionBarTextColor">#203537</color>
+    <color name="textColor">#273339</color>
+    <color name="codeTextColor">#275A56</color>
+    <color name="lessonBackgroundColor">#415C68</color>
+    <color name="lessonDarkBackgroundColor">#2C444F</color>
+</resources>

@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Coder - Обучение программированию</string>
+    <string name="title_activity_lessons">Обучение</string>
+
+    <string name="home">Обучение</string>
+    <string name="lang">Редактор</string>
+    <string name="more">Дополнительно</string>
+
+    <string-array name="menu">
+        <item name="home" tools:ignore="DuplicateDefinition">Обучение</item>
+        <item name="lang" tools:ignore="DuplicateDefinition">Редактор</item>
+        <item name="more" tools:ignore="DuplicateDefinition">Дополнительно</item>
+    </string-array>
+
+    <string name="drawer_open" />
+    <string name="drawer_close" />
+    <string name="run_app">Запуск</string>
+    <string name="openMenu">Меню</string>
+</resources>

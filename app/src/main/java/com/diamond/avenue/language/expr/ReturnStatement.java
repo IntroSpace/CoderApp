@@ -1,0 +1,23 @@
+package com.diamond.avenue.language.expr;
+
+import com.diamond.avenue.language.lib.Value;
+
+public final class ReturnStatement extends RuntimeException implements Statement {
+
+    private final Expression expression;
+    private Value result;
+
+    public ReturnStatement(Expression expression) {
+        this.expression = expression;
+    }
+
+    public Value getResult () {
+        return result;
+    }
+
+    @Override
+    public void execute() {
+        result = expression.eval();
+        throw this;
+    }
+}

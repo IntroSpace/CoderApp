@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/actionBarColor</item>
+        <item name="colorPrimaryDark">@color/actionBarColorDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="actionBarSize">40dp</item>
+        <item name="actionBarStyle">@style/customActionBar</item>
+    </style>
+
+    <style name="customActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="android:titleTextStyle">@style/titleStyle</item>
+        <item name="titleTextStyle">@style/titleStyle</item>
+    </style>
+
+    <style name="titleStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionBarTextColor</item>
+    </style>
+
+    <style name="DefaultButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/default_button</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
