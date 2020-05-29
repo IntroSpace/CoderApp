@@ -2,23 +2,16 @@ package com.diamond.avenue.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ListView;
 
-import com.diamond.avenue.AvenueResult;
 import com.diamond.avenue.LessonActivity;
 import com.diamond.avenue.R;
-import com.diamond.avenue.language.AvenueSystem;
-import com.diamond.avenue.language.Lexer;
-import com.diamond.avenue.language.Parser;
-import com.diamond.avenue.language.Token;
-import com.diamond.avenue.language.expr.BlockStatement;
+import com.diamond.avenue.ui.lessons.LessonItem;
+import com.diamond.avenue.ui.lessons.LessonListAdapter;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -29,9 +22,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.io.StringWriter;
-import java.io.UnsupportedEncodingException;
 import java.io.Writer;
-import java.util.List;
 
 public final class ScreenOne extends androidx.fragment.app.Fragment {
     public ScreenOne() {

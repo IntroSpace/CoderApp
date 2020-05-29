@@ -1,9 +1,9 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@color/colorAccent" android:state_activated="true"/>
-    <item android:drawable="@color/colorAccent" android:state_selected="true"/>
-    <item android:drawable="@color/colorAccent" android:state_pressed="true"/>
-    <item android:drawable="@color/colorAccent" android:state_checked="true"/>
+    <item android:drawable="@color/lessonDarkBackgroundColor" android:state_activated="true"/>
+    <item android:drawable="@color/lessonDarkBackgroundColor" android:state_selected="true"/>
+    <item android:drawable="@color/lessonDarkBackgroundColor" android:state_pressed="true"/>
+    <item android:drawable="@color/lessonDarkBackgroundColor" android:state_checked="true"/>
     <item android:drawable="@android:color/transparent"/>
 
 </selector>

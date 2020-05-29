@@ -1,27 +1,16 @@
 package com.diamond.avenue;
 
 import android.content.Intent;
-import android.content.res.Configuration;
-import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
 
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
 
-import com.diamond.avenue.ui.LessonItem;
-import com.diamond.avenue.ui.LessonListAdapter;
-import com.diamond.avenue.ui.ScreenOne;
-import com.diamond.avenue.ui.ScreenTwo;
+import com.diamond.avenue.ui.lessons.LessonItem;
+import com.diamond.avenue.ui.lessons.LessonListAdapter;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -33,14 +22,13 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.io.StringWriter;
 import java.io.Writer;
-import java.util.Objects;
 
 public class LessonActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.screen_second);
+        setContentView(R.layout.screen_lessons);
         final int id1 = getIntent().getIntExtra("id", 1);
         this.setTitle("" + id1 + ". " + getIntent().getStringExtra("name"));
         //((TextView) findViewById(R.id.text)).setText(""+getIntent().getIntExtra("id", 0));

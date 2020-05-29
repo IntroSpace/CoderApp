@@ -1,4 +1,4 @@
-package com.diamond.avenue.ui;
+package com.diamond.avenue.ui.lessons;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -6,10 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
-
-import androidx.annotation.NonNull;
 
 import com.diamond.avenue.R;
 

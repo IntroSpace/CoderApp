@@ -1,4 +1,4 @@
-package com.diamond.avenue.ui;
+package com.diamond.avenue.ui.lessons;
 
 public class LessonItem {
     public int id = 0;
